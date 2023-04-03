@@ -1,2 +1,14 @@
 # xkcdclock2
-An update to my original xkcd clock app. This time ported to Kotlin, cleaned up, and ready for Android Studio in 2023
+=========
+
+This is an updated version of the original [xkcd clock](https://github.com/jselbie/xkcdclock) written in Java with an older Android SDK.  This verison is a port of the original code to Kotlin and some cleanup and bug fixes.
+
+Demonstrates how to rotate an onscreen bitmap with touch.
+
+This is an unfinished Android app that demonstrates the following:
+
+1. Custom Canvas drawing on a View
+2. Handling Touch events, converting relative movement to angular directions, and applying that to the view's rotation
+
+![alt text](/app/src/main/res/drawable/inner.png "XKCD Clock")
+
